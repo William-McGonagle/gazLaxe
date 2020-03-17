@@ -33,8 +33,9 @@
   - [ ] Functionality 
   - [X] Setup UI
   - [ ] Tunneling
-- [ ] Password Decryptor
-  - _Decrypts passwords using different methods._
+- [ ] ~~Password Decryptor~~
+  - ~~_Decrypts passwords using different methods._~~
+  - __REASON FOR REMOVAL:__ This was before the Text Editor was suppost to support encrypting and decrypting different things. This may be added back in as a local version of Heartbreaker with a different name that can bruteforce encryption algorithms. Possible names include Heartbreak Hotel, The Boxer, Johnny B. Good, Juicy, Good Day Maker or Feel Good Inc. 
 - [ ] `GazL-RAT`
   - _`GazL-RAT` is a Remote Access Tool that acts as though you are using the computer. The screen output, and audio output is sent directly to `GazLAxe` through UDP or TCP packets, and the Keyboard Input, Microphone Input, and Mouse Input is sent directly to the client computer with UDP or TCP packets._
   - [ ] Client Functionality
@@ -44,6 +45,7 @@
   - [ ] FTP Application to Client
 - [ ] `GazL-DOS` 
   - [ ] Implement a fair amount of [these](https://en.wikipedia.org/wiki/Denial-of-service_attack)
+  - [ ] UI
 - [X] Heartbreaker
   - [X] Basic UI
   - [ ] Algorithms
@@ -58,14 +60,26 @@
 - [ ] SSH
   - [X] GazLAxe Terminal
   - [ ] Run in Native Terminal/ Command Prompt
+  - [X] Setup
   - [ ] Allow Tunnels
-- [ ] Dundee Knife
-  - Allows the user to access and control different objects in the physical world (IOT).
-  - [ ] Cameras
-  - [ ] Lights
-  - [ ] Locks
-  - [ ] Doorbells
-  - [ ] Home Managers
-  - [ ] Speakers
-  - [ ] Robot
-  - [ ] Thermostat
+- [ ] KUMP
+  - [X] Setup
+  - [ ] Functionality
+    - [X] Change Remote Password
+    - [ ] Add Remote Account
+    - [ ] Add RAT virus onto remote computer
+  - [X] Add Footprint/ Tag
+  - [X] Specify Remote Computer Type
+  - [X] Scrub Terminal History
+  - [ ] Scrub All Remote Access Histories
+- [ ] ~~Dundee Knife~~
+  - ~~Allows the user to access and control different objects in the physical world (IOT).~~
+  - [ ] ~~Cameras~~
+  - [ ] ~~Lights~~
+  - [ ] ~~Locks~~
+  - [ ] ~~Doorbells~~
+  - [ ] ~~Home Managers~~
+  - [ ] ~~Speakers~~
+  - [ ] ~~Robot~~
+  - [ ] ~~Thermostat~~
+  - [ ] __REASON FOR REMOVAL:__ Too broad. When extension support is added to GazLAxe this will be added back in as an extension. It is mostly just bloatware that will not be used. 
