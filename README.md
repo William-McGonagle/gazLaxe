@@ -12,7 +12,7 @@
   - [ ] POSSIBLE: Act as SMTP server
   - [ ] POSSIBLE: Act as IMAP server
   - [ ] _Allows for the user to send emails to anyone with a valid email address. These emails can be formatted however the user wants. The user will also be able to embed files into the email. This will be good for getting access to a remote computer._
-- [ ] Text Editor
+- [ ] Kashmir (Text Editor)
   - [ ] Encryption
     - _Allows the encryption of a selected area in the Text Editor using any of the following methods._
     - [ ] AES
@@ -20,6 +20,7 @@
     - [ ] TwoFish
     - [ ] RSA
     - [ ] Cesar
+    - [ ] ETC
   - [ ] Decryption
     - _Allows the decryption of a selected area in the Text Editor using any of the following methods_
     - [ ] AES
@@ -27,6 +28,7 @@
     - [ ] TwoFish
     - [ ] RSA
     - [ ] Cesar
+    - [ ] ETC
 - [ ] FTP
   - _Allows transfer of files to specified IP address, with auth parameters._
   - [ ] UI
@@ -43,10 +45,12 @@
   - [ ] UI
   - [X] Setup Screen
   - [ ] FTP Application to Client
+  - [ ] Come up with new name. POSSIBLE NAMES: Emile, NigelBurn, RATBurn, Dr. Ratigan, Ratatouille, or Mickey (I know he's a mouse)
 - [ ] `GazL-DOS` 
   - [ ] Implement a fair amount of [these](https://en.wikipedia.org/wiki/Denial-of-service_attack)
   - [ ] UI
-- [X] Heartbreaker
+  - [ ] Come up with new name: Whole Lotta Love Giver, Suize Q, Black Dog
+- [X] Heartbreaker (Remote Password Guesser)
   - [X] Basic UI
   - [ ] Algorithms
     - [ ] Jack the Ripper
@@ -83,3 +87,10 @@
   - [ ] ~~Robot~~
   - [ ] ~~Thermostat~~
   - [ ] __REASON FOR REMOVAL:__ Too broad. When extension support is added to GazLAxe this will be added back in as an extension. It is mostly just bloatware that will not be used. 
+- [ ] Swarm Controller
+  - _Gives the user control over a certain amount of computers. A script can be transfered to all of these computers that makes them check a webserver for instructions every X amount of minutes. Other methods of swarm control can also be given to all of these computers._
+- [ ] Network Manager
+  - _Get detailed information about everyone on your network. Works very similar to ARP, but custom ports can be used for the pinging so even computers with certain ports blocked can be pinged._
+  - _This works by checking users local IP Address and then replacing the end segment with a number from 1 to 255, and then this IP address is pinged on port 22 or whatever port the user wants. It iterates this 255 times until all possible hosts are found. Custom template addresses can also be used so that the user is able to scan for public IP addresses if they perfer._
+- [ ] Mr. Map
+  - _Essentially NMap for GazLAxe. Does everything that NMAP can do, but with a UI._
