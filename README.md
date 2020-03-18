@@ -5,7 +5,7 @@
 > -Steve Jobs
 
 ## What is `GazLAxe`
-`GazLAxe` is an open source hacking tool that utilizes UI standards that have been brought about in our modern day. It allows an everyday user to protect themselves against hackers, scammers and everyday exploiters. `GazLAxe` also allows security options for your computer, such as allowing you to change your IP address, password, and username at will, even if you are not running `GazLAxe` on those platforms.
+`GazLAxe` is an open source hacking tool that utilizes UI standards that have been brought about in our modern day. It allows an everyday user to protect themselves against hackers, scammers and everyday exploiters. `GazLAxe` also allows security options for your computer, such as allowing users to manage other computers on their local network or computers with public IP addresses, even if you are not running `GazLAxe` on those platforms. 
 
 ## Features
 - [ ] Emailer
