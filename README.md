@@ -13,6 +13,17 @@
   - [ ] POSSIBLE: Act as IMAP server
   - [ ] _Allows for the user to send emails to anyone with a valid email address. These emails can be formatted however the user wants. The user will also be able to embed files into the email. This will be good for getting access to a remote computer._
 - [ ] Kashmir (Text Editor)
+  - [X] Basic UI
+  - [ ] Exporting
+    - [ ] Print
+    - [ ] Save
+    - [ ] Email
+    - [ ] FTP
+    - [ ] Open in Terminal
+  - [ ] Import
+    - [ ] Plaintext 
+    - [ ] Import Binary
+  - [ ] Binary/ Hex Editor
   - [ ] Encryption
     - _Allows the encryption of a selected area in the Text Editor using any of the following methods._
     - [ ] AES
@@ -87,7 +98,7 @@
   - [ ] ~~Robot~~
   - [ ] ~~Thermostat~~
   - [ ] __REASON FOR REMOVAL:__ Too broad. When extension support is added to GazLAxe this will be added back in as an extension. It is mostly just bloatware that will not be used. 
-- [ ] Swarm Controller
+- [ ] Agent Smith
   - _Gives the user control over a certain amount of computers. A script can be transfered to all of these computers that makes them check a webserver for instructions every X amount of minutes. Other methods of swarm control can also be given to all of these computers._
 - [ ] Network Manager
   - _Get detailed information about everyone on your network. Works very similar to ARP, but custom ports can be used for the pinging so even computers with certain ports blocked can be pinged._
